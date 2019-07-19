@@ -16,11 +16,44 @@ header{
     top:0px;
 } 
 
+header > a > i{
+    color: rgb(10, 52, 131);
+    font-size:0.5em;
+    border:2px solid  rgb(10, 52, 131);
+    margin-left:1.2%;
+    position: relative;
+    bottom:15px; 
+    padding: 0.5%;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+header > a > i:hover{
+    background: rgb(10, 52, 131);
+    opacity: 1;
+    color:#fff;
+}
+
+#call{
+    color: rgb(10, 52, 131);
+    font-size: 0.35em;
+    margin-left:20%;
+    position: relative;
+    bottom: 8px;
+    width:3%;
+    display:inline-block;
+}
+strong{
+    font-size:0.7em;
+    position: relative;
+    bottom:5px;
+}
+
 
 header > img {
     height:70px;
     width:20%;
-    margin-left:9%;
+    margin-left:40.5%;
 }
 
 footer{
