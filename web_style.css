@@ -1,0 +1,58 @@
+body{
+    background: rgb(141, 141, 141);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    width:100%;
+    text-align: center;
+    font-size: 4em;
+    background: rgb(5, 5, 184);
+    padding:10px 0;
+    font-weight: bold;
+}
+
+div{
+    width:100%;
+    background: rgb(5, 5, 184);
+    height:145px;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top:560px;
+    padding-top:10px;
+    box-sizing:border-box;
+    
+}
+i{
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#cont,span{
+    margin-left:5%;
+}
+
+#cont > a:nth-child(even),#cont > a:last-child{
+    margin-left:1.2%;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#cont{
+    margin-top:10px;
+}
+
+i:hover{
+    opacity: 0.7;
+    
+}
+
+
+
+
